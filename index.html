@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>RiCo | Développeur Front-End</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="assets/css/vars.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <!-- <link rel="stylesheet" href="assets/css/utilities.css" /> -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <script src="assets/js/shortcuts.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/onload.js" defer></script>
+</head>
+<body class="app">
+
+    <header class="app_header"></header>
+
+    <main class="app_main h-min-full">
+
+        <section id="sectionRicoLanding" class="section s_landing section--h-min slide-in-left">
+            <div class="section_container">
+                <header class="section_header">
+                    <p class="section_subtitle">Bienvenue sur</p>
+                    <h1 class="section_title">
+                        <span>RiCo,</span>
+                        <span>Site d'un Développeur Web, codant la partie visuel d'un site web.</span>
+                    </h1>
+                </header>
+                <div class="section_content">
+                    <div class="box box--social">
+                        <a href="#" class="btn btn--social">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <span class="hidden-visual">Cliquez pour vous rendre sur mon compte Linkedin.</span>
+                        </a>
+                        <a href="#" class="btn btn--social">
+                            <i class="fa-brands fa-discord"></i>
+                            <span class="hidden-visual">Cliquez pour vous rendre sur mon compte discord.</span>
+                        </a>
+                        <a href="#" class="btn btn--social">
+                            <i class="fa-brands fa-github"></i>
+                            <span class="hidden-visual">Cliquez pour vous rendre sur mon compte github.</span>
+                        </a>
+                    </div>
+                    <div class="box box--actions">
+                        <a href="#" class="btn btn--action btn--text">Contacter RiCo</a>
+                        <a href="#" class="btn btn--action btn--text">Télécharger le CV de RiCo</a>
+                    </div>
+                    <div class="box box--action">
+                        <button id="ricoLandingBtn" class="btn btn--action btn--start">
+                            <span>Commencer la visite !</span>
+                            <i class="fa-solid fa-arrow-right move-foward"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sectionRicoHome" class="section s_rico s_rico--home section--h-min slide-in-left hidden">
+            <div class="section_container">
+                <header class="section_header">
+                    <h2 class="section_title">RiCo</h2>
+                    <p class="section_subtitle">
+                        <span>Développeur front-end,</span>
+                        <span>Un créateur de site, jeux web et d'application.</span>
+                        <span>Passionné par les jeux, l'écriture, l'histoire et l'informatique.</span>
+                    </p>
+                </header>
+                <div class="section_content">
+                    <button class="btn btn--action btn--helper">Ouvrir l'Univers de RiCo!</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="sectionRicoAbout" class="section s_rico s_rico--about section--h-min hidden">
+            <div class="section_container">
+                <header class="section_header">
+                    <h3 class="section_title">La petite histoire de RiCo</h3>
+                </header>
+                <div class="section_content">
+                    <p>
+                        Je suis un développeur web, français, né en 1998. J'ai découvert à l'âge de 15 ans, une nouvelle passion : le développement informatique. Une passion que je pratique à côté de mes études et que j'ai mis de côté pour étudier le droit et l'informatique afin de devenir un avocat spécialisé en informatique. Cependant, après deux-trois ans d'études de droit, j'ai décidé d'arrêter mes études de droit pour me lancer dans des études d'informatique. Ayant obtenu mon diplôme d'informatique, et ayant plus de 5 ans en autodidacte dans le développement informatique, je décide de créer ce site afin de me lancer dans le monde professionnel.
+                    </p>
+                </div>
+                <footer class="section_footer">
+                    <a href="#" class="btn btn--action">Continuer la lecture</a>
+                </footer>
+            </div>
+        </section>
+
+        <section id="sectionRicoFeatured" class="section s_rico s_rico--featured section--h-min hidden">
+            <div class="section_container">
+                <header class="section_header">
+                    <h3 class="section_title">Projets en vedette</h3>
+                </header>
+                <div class="section_content">
+                    <div class="box box--project box--featured">
+                        <header class="box_header">
+                            <h4 class="box_title">Titre de projet</h4>
+                            <p class="box_subtitle">Description du projet</p>
+                        </header>
+                        <div class="box_content">
+                            <p class="box_tag">Tag1</p>
+                            <p class="box_tag">Tag2</p>
+                        </div>
+                        <footer class="box_footer">
+                            <a href="#" class="box_action">Action1</a>
+                            <a href="#" class="box_action">Action2</a>
+                            <a href="#" class="box_action">Action3</a>
+                            <a href="#" class="box_action">Action4</a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="app_footer"></footer>
+
+</body>
+</html>
